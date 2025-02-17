@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+:root {
+  --color-bronze: #C6822A;
+  --color-sage: #A9B388;
+  --color-sunflower: #FFCE31;
+  --color-olive: #5F7053;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mapboxgl-map {
+  border-radius: 0.75rem;
+}
+
+.mapboxgl-ctrl-bottom-right {
+  bottom: 12px;
+  right: 12px;
+}
+
+.mapboxgl-ctrl-group {
+  background-color: white;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+}
+
+.mapboxgl-ctrl-group button {
+  width: 32px !important;
+  height: 32px !important;
+}
+
+.delivery-vehicle {
+  transition: transform 0.1s;
+}
+
+.delivery-vehicle-pulse {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
