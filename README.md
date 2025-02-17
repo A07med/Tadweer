@@ -67,7 +67,7 @@ Tadweer is a modern, full-stack application designed to streamline the process o
 > Helpful advice for doing things better or more easily.
 
 1. Clone the repository:
-- **git clone https://github.com/yourusername/tadweer.git**
+- **git clone https://github.com/Mojahid-Souti/tadweer.git**
 
 2. Install dependencies:
 - **cd tadweer**
