@@ -6,18 +6,18 @@ Tadweer is a modern, full-stack application designed to streamline the process o
 
 ## Features
 ### For Customers
-1. 🗓️ Schedule oil collections
-2. 📦 Purchase containers
-3. 🏆 View the leaderboard and rewards
-4. 📊 Track collection history
-5. 🎯 Earn points for recycling
+- 🗓️ Schedule oil collections  
+- 📦 Purchase containers  
+- 🏆 View the leaderboard and rewards  
+- 📊 Track collection history  
+- 🎯 Earn points for recycling  
 
 ### For Companies
-1. 📍 Real-time delivery tracking
-2. 📊 Analytics dashboard
-3. 📋 Order management
-4. 🚚 Delivery Scheduling
-5. 👥 Team management
+- 📍 Real-time delivery tracking  
+- 📊 Analytics dashboard  
+- 📋 Order management  
+- 🚚 Delivery Scheduling  
+- 👥 Team management  
 
 ## Screenshots
 ### Simple Customer Dashboard
@@ -47,44 +47,38 @@ Tadweer is a modern, full-stack application designed to streamline the process o
 
 ## Tech Stack
 ### Frontend:
-1. React with TypeScript
-2. Tailwind CSS for styling
-3. Framer Motion for animations
-4. Mapbox GL for maps
-5. Recharts for data visualization
+- ⚛️ React with TypeScript  
+- 🎨 Tailwind CSS for styling  
+- 🎞️ Framer Motion for animations  
+- 🗺️ Mapbox GL for maps  
+- 📊 Recharts for data visualization  
 
 ### Authentication:
-1. Clerk for user management
-   
+- 🔑 Clerk for user management  
+
 ### Features:
-1. Real-time tracking
-2. Interactive maps
-3. Responsive design
-4. Role-based access control
+- 🚀 Real-time tracking  
+- 🗺️ Interactive maps  
+- 📱 Responsive design  
+- 🔐 Role-based access control  
 
 ## Getting Started
-> [!TIP]
-> Helpful advice for doing things better or more easily.
 
-1. Clone the repository:
-- **git clone https://github.com/Mojahid-Souti/tadweer.git**
+> **💡 TIP:** Helpful advice for doing things better or more easily.
 
-2. Install dependencies:
-- **cd tadweer**
-- **npm install**
+```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/Mojahid-Souti/tadweer.git
 
-3. Set up environment variables:
-- **VITE_CLERK_PUBLISHABLE_KEY=your_clerk_key**
-- **VITE_MAPBOX_TOKEN=your_mapbox_token**
+# 2️⃣ Install dependencies
+cd tadweer
+npm install
 
-4. Run the development server:
-- **npm run dev**
+# 3️⃣ Set up environment variables
+Create a `.env` file in the project root and add the following:
 
+VITE_CLERK_PUBLISHABLE_KEY=your_clerk_key
+VITE_MAPBOX_TOKEN=your_mapbox_token
 
-
-
-
-
-
-
-
+# 4️⃣ Run the development server
+npm run dev
